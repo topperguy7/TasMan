@@ -1,16 +1,91 @@
-# React + Vite
+# 🗓️ Task Calendar – Streak Based Productivity App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal and clean calendar-based task manager that helps users plan, complete tasks, and maintain daily streaks.
+<hr>
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ul>
+  <li>📅 Interactive monthly calendar view</li>
+  <li>✅ Add & delete tasks by date</li>
+  <li>🔥 Daily streak tracking</li>
+  <li>🏆 Longest streak calculation</li>
+  <li>💾 Persistent storage using LocalStorage</li>
+  <li>🎨 Modern gradient UI design</li>
+  <li>⚡ Fast and responsive</li>
+</ul>
+<hr>
 
-## React Compiler
+## 🖼️ Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Add a screenshot in your root folder and use:
 
-## Expanding the ESLint configuration
+![App Screenshot](Screenshots/Screenshot-1.png)
+![App Screenshot](Screenshots/Screenshot-2.png)
+<hr>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+<ul>
+  <li>React</li>
+  <li>JavaScript (ES6+)</li>
+  <li>CSS (Custom styling + gradients)</li>
+  <li>LocalStorage for persistence</li>
+  <li>Vercel for deployment</li>
+</ul>
+<hr>
+
+## 🧠 How It Works
+
+<ul>
+  <li>User selects a date from the calendar</li>
+  <li>Tasks are stored against that date</li>
+  <li>Completing tasks marks the day as active</li>
+  <li>Streak logic checks consecutive completed days</li>
+  <li>Data persists using browser LocalStorage</li>
+</ul>
+<hr>
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ ├── utils/
+ ├── App.jsx
+ ├── index.css
+ └── main.jsx
+```
+<hr>
+
+## 📌 Future Improvements
+
+<ul>
+  <li>User authentication</li>
+  <li>Cloud database integration</li>
+  <li>Dark/Light theme toggle</li>
+  <li>Drag & drop tasks</li>
+  <li>Mobile app version</li>
+</ul>
+<hr>
+
+## 🙌 Why I Built This
+
+I built this project to strengthen my understanding of:
+
+<ul>
+  <li>React state management</li>
+  <li>Calendar logic & date manipulation</li>
+  <li>Streak algorithms</li>
+  <li>Production deployment workflow</li>
+</ul>
+
+<hr>
+
+## 📄 License
+
+This project is open-source and free to use.
+
+## Author
+
+-topperguy7
