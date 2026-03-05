@@ -29,7 +29,6 @@ A minimal and clean calendar-based task manager that helps users plan, complete 
   <li>JavaScript (ES6+)</li>
   <li>CSS (Custom styling + gradients)</li>
   <li>LocalStorage for persistence</li>
-  <li>Vercel for deployment</li>
 </ul>
 <hr>
 
