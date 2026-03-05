@@ -18,8 +18,6 @@ A minimal and clean calendar-based task manager that helps users plan, complete 
 
 ## 🖼️ Preview
 
-Add a screenshot in your root folder and use:
-
 ![App Screenshot](Screenshots/Screenshot-1.png)
 ![App Screenshot](Screenshots/Screenshot-2.png)
 <hr>
